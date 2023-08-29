@@ -1,70 +1,191 @@
-# Getting Started with Create React App
+# Math Magicians App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a name="readme-top"></a>
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠️ Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm start`
+<!-- PROJECT DESCRIPTION -->
+# 📖 Math Magician - Setup <a name="about-project"></a>
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<li>Make simple calculations. </li>
+ <li>Read a random math-related quote. </li>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🛠️ Built With <a name="built-with"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- Tech Stack -->
+### Tech Stack <a name="tech-stack"></a>
+- HTML
+- CSS
+- JAVASCRIPT
+- WEBPACK
+- REACT
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- Key Features -->
+### Key Features <a name="key-features"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Good HTML and CSS practices**
+- **A webpage with the use of linters**
+- **Dynamic interactivity with JavaScript**
+- **React project with components**
 
-### `npm run eject`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Live Demo <a name="live-demo"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🚀 Live Demo
+Link to our deployed project (project not deployed yet).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  Soon to be deployed...
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- GETTING STARTED -->
 
-## Learn More
+## 💻 Getting Started <a name="getting-started"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To get a local copy up and running, follow these steps.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Setup <a name="setup"></a>
 
-### Code Splitting
+Clone this repository to your desired folder by running the following commands in your terminal:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+  cd your-prefered-folder-name
+  
+  git clone https://github.com/peter-mwovi/Math-magician.git
+```
 
-### Analyzing the Bundle Size
+### Prerequisites <a name="prerequisites"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+In order to run this project you need the following tools:
+- A modern web browser (Chrome, Firefox, Safari, Edge).
+- An IDE (e.g.: Vscode, Sublime Text,...).
+- A terminal (Git Bash).
+- Create a React project, including Webpack project bundler.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Install <a name="install"></a>
 
-### Advanced Configuration
+- Install this project with linters and Webpack bundler:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+  cd to_do_list
 
-### Deployment
+  npm init -y
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
-### `npm run build` fails to minify
+  npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  npx create-react-app my-app .  (inside of the root directory)
+```
+
+### Usage <a name="usage"></a>
+
+To run the project, execute the following command:
+
+```sh
+  Open the project in Webpack dev server or Open the index.html file, from dist/ folder, on your browser.
+```
+### Build the project with Webpack and run a dev server
+```
+  Run the following commands in the terminal:
+
+  npm run build
+  
+  npm start
+```
+
+### Run Linters tests <a name="run-tests"></a>
+
+To run tests, run the following command:
+
+```sh
+
+  npx stylelint "**/*.{css,scss}" (--fix option)
+
+  npx eslint "**/*.{js,jsx}" (--fix option)
+```
+
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
+
+🚀 Project deployment.
+
+Soon to be deployed...
+https://
+
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 Peter Mwovi
+
+- GitHub: [@githubhandle](https://github.com/peter-mwovi/)
+- Twitter: [@twitterhandle](https://twitter.com/mwovi_peter)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/peter-mwovi-57141a179/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+The Math Magicians App will include the following features:
+- **Complete the site pages**
+- **Deploy this site to Github Pages.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+All contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐ Show your support <a name="support"></a>
+
+If you like this project, please support me with a like or a star.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Thanks to my learning partners and the staff at Microverse.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
