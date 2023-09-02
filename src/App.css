@@ -28,6 +28,7 @@ body {
   height: 40px;
   text-align: right;
   font-weight: 600;
+  font-size: 18px;
   padding-right: 5px;
   padding-top: 10px;
   background-color: #969696;
@@ -46,6 +47,16 @@ body {
   font-size: 18px;
 }
 
+.keys2:hover {
+  background-color: rgb(197, 196, 196);
+  border: 0.5px solid #868686;
+}
+
+.keys2:active {
+  background-color: rgb(146, 146, 146);
+  border: 0.5px solid #5a5a5a;
+}
+
 .key1 {
   width: 25%;
   height: 40px;
@@ -56,6 +67,16 @@ body {
   font-size: 18px;
 }
 
+.key1:hover {
+  background-color: rgb(197, 196, 196);
+  border: 0.5px solid #868686;
+}
+
+.key1:active {
+  background-color: rgb(146, 146, 146);
+  border: 0.5px solid #5a5a5a;
+}
+
 .key1b {
   width: 25%;
   height: 40px;
@@ -63,4 +84,14 @@ body {
   border: 0.5px solid #acacac;
   background-color: rgb(250, 163, 56);
   font-size: 18px;
+}
+
+.key1b:hover {
+  border: 0.5px solid #868686;
+  background-color: rgb(253, 154, 33);
+}
+
+.key1b:active {
+  border: 0.5px solid #5a5a5a;
+  background-color: rgb(252, 140, 4);
 }
