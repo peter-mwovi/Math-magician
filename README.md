@@ -10,7 +10,7 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
+  - [Components](#conponents)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
@@ -24,7 +24,7 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖 Math Magician - Setup <a name="about-project"></a>
+# 📖 Math Magician - Components <a name="about-project"></a>
 "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
 <li>Make simple calculations. </li>
@@ -66,7 +66,7 @@ Link to our deployed project (project not deployed yet).
 
 To get a local copy up and running, follow these steps.
 
-### Setup <a name="setup"></a>
+### Components <a name="Components"></a>
 
 Clone this repository to your desired folder by running the following commands in your terminal:
 
