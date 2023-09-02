@@ -8,7 +8,6 @@
   - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [fetch-from-api](#fetch-from-api)
   - [Prerequisites](#prerequisites)
@@ -53,12 +52,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Live Demo <a name="live-demo"></a>
-
-🚀 Live Demo
-Link to our deployed project (project not deployed yet).
-
-  Soon to be deployed...
 
 <!-- GETTING STARTED -->
 
