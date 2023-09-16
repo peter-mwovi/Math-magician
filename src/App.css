@@ -1,39 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding-left: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
 .App {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calc {
+  float: right;
+  margin-right: 80px;
+  margin-top: 100px;
+  box-sizing: border-box;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 280px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.keys4 {
+  width: 100%;
+  height: 40px;
+  text-align: right;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 5px;
+  padding-top: 10px;
+  background-color: #969696;
+  color: white;
+  border: 0.5px solid #acacac;
+  vertical-align: bottom;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.keys2 {
+  width: 50%;
+  height: 40px;
+  border: 0.5px solid #acacac;
+  background-color: rgb(231, 230, 230);
+  padding-top: 10px;
+  vertical-align: bottom;
+  font-size: 18px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.keys2:hover {
+  background-color: rgb(197, 196, 196);
+  border: 0.5px solid #868686;
+}
+
+.keys2:active {
+  background-color: rgb(146, 146, 146);
+  border: 0.5px solid #5a5a5a;
+}
+
+.key1 {
+  width: 25%;
+  height: 40px;
+  padding-top: 10px;
+  border: 0.5px solid #acacac;
+  background-color: rgb(231, 230, 230);
+  vertical-align: bottom;
+  font-size: 18px;
+}
+
+.key1:hover {
+  background-color: rgb(197, 196, 196);
+  border: 0.5px solid #868686;
+}
+
+.key1:active {
+  background-color: rgb(146, 146, 146);
+  border: 0.5px solid #5a5a5a;
+}
+
+.key1b {
+  width: 25%;
+  height: 40px;
+  padding-top: 10px;
+  border: 0.5px solid #acacac;
+  background-color: rgb(250, 163, 56);
+  font-size: 18px;
+}
+
+.key1b:hover {
+  border: 0.5px solid #868686;
+  background-color: rgb(253, 154, 33);
+}
+
+.key1b:active {
+  border: 0.5px solid #5a5a5a;
+  background-color: rgb(252, 140, 4);
+}
+
+.quotes {
+  width: 35%;
+  color: gray;
+  float: left;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+.details {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: flex-start;
 }
